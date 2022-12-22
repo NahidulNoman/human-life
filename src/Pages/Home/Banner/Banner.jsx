@@ -30,7 +30,7 @@ const Banner = () => {
         <div className="max-w-md">
           {/* <h1 className="mb-5 text-5xl font-bold">Hello there</h1> */}
           <h2 className="sm:text-3xl lg:text-6xl text-center mb-3 text-green-600">GIVE A HAND</h2>
-        <h3 className="sm:text-2xl lg:text-4xl text-center mb-3 font-bold">
+        <h3 className="sm:text-2xl lg:text-3xl text-center mb-3 font-bold">
           TO MAKE THE BETTER WORLD
         </h3>
           <p className="mb-5">
