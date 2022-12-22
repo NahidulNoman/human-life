@@ -25,19 +25,19 @@ const CausesHome = () => {
         },
     ]
     return (
-        <div className='mt-40'>
+        <div className='mt-24 mb-20 mx-2'>
             <div className='mb-16'>
-            <h2 className='text-center text-4xl'>Our Major Causes</h2>
-            <p className='text-center text-2xl'>Creepeth called face upon face yielding midst is after moveth</p>
+            <h2 className='text-center text-4xl font-bold'>Our Major Causes</h2>
+            <p className='text-center text-2xl opacity-70'>Creepeth called face upon face yielding midst is after moveth</p>
             </div>
             <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                 {
                     donateData.map(data => <div key={data.id} className="card p-5 bg-white shadow-xl">
-                        <h2 className="card-title">{data.name}</h2>
+                        <h2 className="text-3xl font-semibold text-center">{data.name}</h2>
                     <figure className="px-10 pt-10">
                       <img src={data.image} alt="Shoes" className="rounded-xl" />
                     </figure>
-                    <div className="card-body items-center text-center">
+                    <div className="card-body items-center text-center font-semibold opacity-75">
                       <p>{data.text}</p>
                     </div>
                   </div>)
