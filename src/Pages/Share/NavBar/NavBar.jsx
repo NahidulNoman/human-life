@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from '../../../assets/seelifeLogo.png';
+import logo from "../../../assets/seelifeLogo.png";
 
 const NavBar = () => {
-
   const menuItems = (
     <>
       <li className="font-semibold ">
@@ -13,12 +12,12 @@ const NavBar = () => {
       </li>
       <li className="font-semibold">
         <Link to="/causes" className="rounded-lg text-white">
-        Causes
+          Causes
         </Link>
       </li>
       <li className="font-semibold">
         <Link to="/event" className="rounded-lg text-white">
-        Event
+          Event
         </Link>
       </li>
       <li className="font-semibold">
