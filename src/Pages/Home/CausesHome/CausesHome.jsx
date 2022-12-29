@@ -3,6 +3,7 @@ import donation1 from "../../../assets/donation1.png";
 import donation2 from "../../../assets/donation2.png";
 import donation3 from "../../../assets/donation3.png";
 
+
 const CausesHome = () => {
   const donateData = [
     {
