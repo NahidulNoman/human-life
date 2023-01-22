@@ -3,7 +3,7 @@ import React from 'react';
 const Causes = () => {
     return (
         <div>
-            <h4>this is causes page.</h4>
+            <h2>this is causes page.</h2>
         </div>
     );
 };
