@@ -28,6 +28,7 @@ const CausesHome = () => {
     <div className="mt-24 mb-20 mx-2">
       <div className="mb-16">
         <h2 className="text-center text-4xl font-bold">Our Major Causes</h2>
+        
         <p className="text-center text-2xl opacity-70">
           Creepeth called face upon face yielding midst is after moveth
         </p>

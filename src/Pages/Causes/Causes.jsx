@@ -8,4 +8,5 @@ const Causes = () => {
     );
 };
 
+
 export default Causes;
