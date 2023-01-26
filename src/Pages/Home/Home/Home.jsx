@@ -4,6 +4,7 @@ import CausesHome from "../CausesHome/CausesHome";
 import FeaturedCausesHome from "../FeaturedCausesHome/FeaturedCausesHome";
 import TeamWork from "../TeamWork/TeamWork";
 
+
 const Home = () => {
   return (
     <div>
