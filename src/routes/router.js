@@ -7,6 +7,7 @@ import Contact from "../Pages/Contact/Contact";
 import Event from "../Pages/Event/Event";
 import Home from "../Pages/Home/Home/Home";
 
+// this is how we can make our place better.
 export const router = createBrowserRouter([
     {
         path : '/',
